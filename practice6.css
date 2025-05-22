@@ -1,0 +1,131 @@
+body,
+html{
+    background-image: url(tomoko-uji-kxvn1ogpTtE-unsplash.jpg);
+    background-repeat: repeat;
+    background-position: fill top;
+    background-size: cover;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.midbox{
+    background-color: rgba(241, 202, 217, 255);
+    border-radius: 10mm;
+    border-style: groove;
+    border-color: antiquewhite;
+}
+
+.navbar{
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: end;
+
+}
+
+.second-nav{
+    background-image: url(a5f1b14e6821d2ebce7c41589111aa25.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    border: groove;
+        
+}
+
+.id-box{
+    border-width: 1mm;
+    border-radius: 1mm;
+    border-color: rgba(216, 140, 171, 255);
+    background-color: rgba(231, 166, 190, 255);
+    padding: 0.5rem 0.5rem ;
+   
+  border-style: solid;
+}
+
+.id-box li {
+    margin: 1.5mm auto ;
+}
+
+.blackbg{
+  
+    background-color: rgba(226, 88, 145, 255);
+    padding: 0.1mm 2mm;
+}
+
+.profile-img{
+    background-color: rgba(225, 144, 187, 255);
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+
+}
+
+.recentbox{
+   display: flex;
+   justify-content: start;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1mm;
+    border-radius: 1mm;
+    border-color: rgb(226, 183, 200, 255);
+}
+
+.recentbox li{
+    text-decoration: none;
+}
+
+.linkbox{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+.linkbox li img{
+    margin-bottom: 2mm;
+    margin-top: 2mm;
+    height: 16mm;
+    width: 75mm;
+   
+}
+
+.crossbox{
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1mm;
+    border-radius: 1mm;
+    border-color: rgb(226, 183, 200, 255);
+}
+
+.mainbodyrow{
+    margin-top: 0.5cm;
+    background-color: rgba(237, 185, 204, 255);
+    text-align: start;
+    padding-bottom: 3cm;
+}
+
+
+.mainbodyrow img{
+    height: 110%;
+}
+
+
+.friendimage a img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.friendimage{
+    padding: 5mm 5mm;
+}
+
+.emblem{
+    height: 2rem;
+    width: auto;
+}

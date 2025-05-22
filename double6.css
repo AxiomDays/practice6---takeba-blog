@@ -1,0 +1,265 @@
+:root {
+    --text-pink: #b36673;
+}
+
+@font-face {
+    font-family: Lucy;
+    src: url(assets/Kugile_Demo.ttf);
+}
+
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.orbitron:hover {
+    transition: 0.3s;
+    color: #222222;
+}
+
+.orbitron-light {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.orbitron-dark {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--text-pink);
+}
+
+.danfo {
+    padding-top: 1rem;
+    font-family: Lucy;
+    font-weight: 400;
+    font-size: 6mm;
+    text-shadow: 2px 2px 4px #222222;
+}
+
+body,
+html {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url(assets/ilie-barna-hSL6Cqb5K5o-unsplash.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.uversite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.uver-blog {
+    display: flex;
+    border-width: 0.8mm;
+    border-radius: 5mm;
+    border-style: groove;
+    border-color: antiquewhite;
+    box-shadow: 5%;
+    background-color: rgba(241, 202, 217, 255);
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.text-body-col {
+    padding: 2em;
+}
+
+.extra-pic-col {
+    padding: 2em;
+}
+
+.header-row {
+    background-color: rgb(212, 212, 212);
+    overflow: hidden;
+    height: 5dvh;
+    width: 100%;
+    padding: 0 0 0 2.5em;
+    border-bottom: 0.8mm ridge rgb(39, 39, 39);
+}
+
+.icon-row {
+    padding: 0;
+}
+
+.icon-row img {
+    padding: 0;
+}
+
+.close-icon {
+    height: 1.5rem;
+    width: 25px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.breaker {
+    color: red;
+    border: 1.5px solid rgb(201, 126, 138);
+    margin: 5px 0px;
+}
+
+
+.header-row span {
+    font-size: 4mm;
+    font-weight: 400;
+
+}
+
+.header-span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+.title-header-row {
+    padding: 0;
+    margin: 0;
+}
+
+.yuka {
+
+    font-size: 2.8em;
+    color: var(--text-pink);
+    text-shadow: -1px -1px 0 #554d4d, 1px -1px 0 #554d4d, -1px 1px 0 #554d4d, 1px 1px 0 #554d4d;
+}
+
+.yuka span {
+    font-size: 2.5em;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.emblem {
+    height: 2rem;
+    width: auto;
+}
+
+.emblem-span {
+    font-size: 80%;
+    font-weight: 400;
+    padding: 0.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.second-nav {
+    background-image: url(assets\quaritsch-photography-INprSEBbfG4-unsplash.png), linear-gradient(0deg, rgb(204, 118, 132), #ffffff 50%);
+    background-position: 90%;
+    border: groove;
+    margin: 0;
+}
+
+.cherry-bomb {
+    width: 8rem;
+    height: 4rem;
+    opacity: 50%;
+
+}
+
+.uver-second-nav {
+    padding: 1em 1em;
+}
+
+.profile-box {
+    border: 3px solid rgb(201, 126, 138);
+    background-color: rgba(231, 166, 190, 255);
+    padding: 0.5rem 0.5rem;
+    border-radius: 1%;
+}
+
+.profile-box li {
+    margin: 1.5mm auto;
+
+}
+
+.blackbg {
+    background-color: rgba(226, 88, 145, 255);
+    padding: 0.1mm 2mm;
+    margin: 5rem 0rem;
+}
+
+.star-head {}
+
+.mainbodyrow {
+    margin-top: 0.5cm;
+    background-color: rgba(237, 185, 204, 255);
+    text-align: start;
+    padding-bottom: 3cm;
+}
+
+.img-fluid {
+    border: solid 4px var(--text-pink);
+}
+
+.profile-img {
+    background-color: rgba(225, 144, 187, 255);
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+
+}
+
+.profdanf {
+    color: var(--text-pink);
+    text-shadow: -1px -1px 0 #554d4d, 1px -1px 0 #554d4d, -1px 1px 0 #554d4d, 1px 1px 0 #554d4d;
+}
+
+.recentbox {
+    background-color: white;
+    border: 1.5px solid rgb(201, 126, 138);
+}
+
+.recentbox ul li a {
+    text-decoration: none;
+    color: rgb(201, 126, 138);
+    letter-spacing: 0.2mm;
+
+}
+
+.crossbox {
+    background-color: white;
+}
+
+
+
+.friendimage a img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.friendimage {
+    padding: 2mm 2mm;
+}
